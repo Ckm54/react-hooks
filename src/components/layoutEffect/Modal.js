@@ -1,4 +1,4 @@
-import React, {useLayoutEffect, useEffect, useState, useRef} from 'react'
+import React, {useLayoutEffect, useState, useRef} from 'react'
 
 export default function Modal() {
 

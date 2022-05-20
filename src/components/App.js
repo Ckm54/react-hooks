@@ -3,7 +3,12 @@ import React from 'react'
 // import Effect from "./effect"
 // import Memo from "./memo"
 // import Ref from "./ref"
-import ContectDemo from "./contextDocs"
+// import ContectDemo from "./contextDocs"
+import ReducerComponent from "./reducer"
+import Callback from "./callback"
+import CustomHooks from "./customHooks"
+import LayoutEffect from "./layoutEffect"
+import Transition from "./transition"
 
 function App() {
   return (
@@ -12,7 +17,12 @@ function App() {
       <Effect />
       <Memo /> 
       <Ref />*/}
-      <ContectDemo />
+      {/* <ContectDemo /> */}
+      {/* <ReducerComponent /> */}
+      {/* <Callback /> */}
+      {/* <CustomHooks /> */}
+      {/* <LayoutEffect /> */}
+      <Transition />
     </>
   )
 }

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Modal from './Modal'
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
     <>
       <button onClick={() => setCount(c => c + 1)}>Increment</button>
       <div>{count}</div>
+      <hr />
+      <Modal />
     </>
   )
 }

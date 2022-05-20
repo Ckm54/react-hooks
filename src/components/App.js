@@ -1,14 +1,18 @@
 import React from 'react'
-import State from "./state"
-import Effect from "./effect"
-import Memo from "./memo"
+// import State from "./state"
+// import Effect from "./effect"
+// import Memo from "./memo"
+// import Ref from "./ref"
+import ContectDemo from "./contextDocs"
 
 function App() {
   return (
     <>
-      <State />
+      {/* <State />
       <Effect />
-      <Memo />
+      <Memo /> 
+      <Ref />*/}
+      <ContectDemo />
     </>
   )
 }

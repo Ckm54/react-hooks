@@ -24,6 +24,8 @@ function App() {
 
   return (
     <>
+      <hr />
+      <h2>useMemo hook useCases</h2>
       <input type="number" value={number} onChange={(e) => {
         setNumber(parseInt(e.target.value))
       }} />
